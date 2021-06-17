@@ -350,3 +350,278 @@ li:nth-child(5) {
   text-decoration: none;
   color: white;
 }
+
+/* --------------------- flèche retour ---------------------------*/
+
+.fa-arrow-left {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 4%;
+  top: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* --------------------------- image fond --------------------------------- */
+.bg-img {
+  height: 100%;
+  width: 100%;
+}
+.logo-menu {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -100;
+  position: relative;
+}
+
+/* ------------------- titre h2 de chaque menu------------------------------*/
+
+.titre-menu {
+  font-family: Shrikhand-Regular;
+  /* padding-top: 5%; */
+  margin-left: 75px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+/* ----------------------- ensemble --------------------------------*/
+
+.ensemble1-titres-au-bouton {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  z-index: 999999;
+  padding-top: 50px;
+  margin-top: -50px;
+  background-color: #e2e2e2;
+}
+
+.ensemble2-titres-et-menus {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+
+.ensemble3-entrees-sans-titres,
+.ensemble4-plats-sans-titres,
+.ensemble5-desserts-sans-titres {
+  width: 30%;
+  height: 100%;
+  margin-top: 25px;
+}
+
+/* ----------------------------- h2 et icône coeur ---------------------*/
+
+#coeur1-3,
+#coeur1-1 {
+  display: none;
+}
+
+/* #coeur1-3 {
+  color: #e5e5e5;
+  transition: color 1s ease-out;
+}
+
+#coeur1-3:hover {
+  color: red;
+}
+
+#coeur1-1 {
+  display: flex;
+  position: absolute;
+  right: 9%;
+  font-size: 1.8rem;
+  top: 2%;
+}
+
+#coeur1-3 {
+  display: flex;
+  position: absolute;
+  right: 9.6%;
+  font-size: 1.5rem;
+  top: 2.21%;
+} */
+
+/* ---------------------------- les entrées ----------------------*/
+
+.titre-entrees,
+.titre-desserts,
+.titre-plats {
+  display: inline-block;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.795);
+  margin-bottom: 420px;
+  border-bottom: 4px solid #99e2d0;
+  width: 30px;
+}
+
+/* ----------------------------------le menu entier ---------------------------------------*/
+
+.titre-article1,
+.titre-article2,
+.titre-article3,
+.titre-article4,
+.titre-article5,
+.titre-article6,
+.titre-article7,
+.titre-article8,
+.titre-article9,
+.titre-article10 {
+  background-color: white;
+  margin: 5%;
+  display: flex;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 90px;
+  box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.397);
+  /* width: 330px; */
+  /* justify-content: space-between; */
+  animation: fadein 1s 1s linear both;
+  position: relative;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.titre-article1:hover,
+.titre-article2:hover,
+.titre-article3:hover,
+.titre-article4:hover,
+.titre-article5:hover,
+.titre-article6:hover,
+.titre-article7:hover,
+.titre-article8:hover,
+.titre-article9:hover,
+.titre-article10:hover {
+  background: linear-gradient(190deg, #9256dc93, #ff79d956);
+  transition: all, 400ms;
+}
+
+.h4-article1,
+.h5-article1,
+.h5-article1-1,
+.h4-article2,
+.h5-article2,
+.h4-article3,
+.h5-article3,
+.h4-article4,
+.h5-article4,
+.h4-article5,
+.h5-article5,
+.h4-article6,
+.h5-article6,
+.h4-article6-6,
+.h5-article6-6,
+.h4-article7,
+.h5-article7,
+.h4-article8,
+.h5-article8,
+.h4-article9,
+.h5-article9,
+.h4-article10,
+.h5-article10,
+.h4-article11,
+.h5-article11 {
+  padding-left: 4%;
+}
+
+.h4-article1,
+.h4-article2,
+.h4-article3,
+.h4-article4,
+.h4-article5,
+.h4-article6,
+.h4-article6-6,
+.h5-article6-6,
+.h4-article7,
+.h4-article8,
+.h4-article9,
+.h4-article10 {
+  padding-top: 5%;
+  width: 310px;
+  font-size: larger;
+}
+
+.h5-article1,
+.h5-article1-1,
+.h5-article2,
+.h5-article3,
+.h5-article4,
+.h5-article5,
+.h5-article6,
+.h5-article6-6,
+.h5-article7,
+.h5-article8,
+.h5-article9,
+.h5-article10,
+.h5-article11 {
+  font-weight: 100;
+  padding-top: 5%;
+  font-size: medium;
+}
+
+.h5-article1,
+.h5-article2,
+.h5-article3,
+.h5-article4,
+.h5-article5,
+.h5-article6,
+.h5-article7,
+.h5-article8,
+.h5-article9,
+.h5-article10,
+.h5-article11 {
+  padding-bottom: 3%;
+}
+
+.prix {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+
+/* ------------------------------------ icone checked -------------------------------*/
+
+.cube1 {
+  display: none;
+}
+
+/* -------------------------------------- bouton commander ----------------------------------------------- */
+
+.bouton-commander {
+  outline: none;
+  border: none;
+  border-radius: 9999px;
+  width: 300px;
+  height: 70px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(190deg, #9356dc, #ff79da);
+  display: flex;
+  padding: 25px;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 1rem;
+}
+.button1 {
+  padding-bottom: 25px;
+}
+.bouton-commander:hover {
+  background: #9256dcce;
+  box-shadow: 1px 0px 0px 1px #9256dcce;
+}
