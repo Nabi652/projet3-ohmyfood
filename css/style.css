@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Shrikhand-Regular";
-  src: url(./assets/fonts/Shrikhand-Regular.ttf);
+  src: url(../assets/fonts/Shrikhand-Regular.ttf);
 }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: url(./assets/fonts/Roboto-Medium.ttf);
+  src: url(../assets/fonts/Roboto-Medium.ttf);
 }
 
 *,
@@ -329,7 +329,7 @@ footer ul {
 }
 
 .titre-ohmyfood {
-  font-family: Shrikhand-Regular;
+  font-family: "Shrikhand-Regular";
   font-size: 1.7rem;
 }
 
@@ -624,4 +624,7 @@ a {
 .bouton-commander:hover {
   background: #9256dcce;
   box-shadow: 1px 0px 0px 1px #9256dcce;
+}
+.btn-note-enchantee {
+  margin-top: 75px;
 }
