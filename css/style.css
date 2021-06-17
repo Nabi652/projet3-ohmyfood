@@ -162,3 +162,191 @@ h1 {
 .text {
   font-size: 1.2rem;
 }
+
+/* ------------------------------ aside ------------------------------------------------------- */
+aside {
+  background-color: rgba(128, 128, 128, 0.082);
+  padding-bottom: 15%;
+  padding-top: 15px;
+  margin-top: 45px;
+}
+
+aside a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------------------------------- ensemble des 4 photos ------------------------- */
+
+.menu {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.titre-restaurants {
+  margin-top: 35px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  font-size: xx-large;
+}
+
+/* ------------------LES PHOTOS ---------------------*/
+
+.restaurant-menilmontant,
+.restaurant-charonne,
+.restaurant-cite-rouge,
+.restaurant-mericourt {
+  width: 35%;
+  height: 270px;
+  border-radius: 25px 25px;
+  box-shadow: 1px 2px 1px 1px rgba(128, 128, 128, 0.171);
+  background-color: white;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+
+.restaurant-menilmontant a,
+.restaurant-charonne a,
+.restaurant-cite-rouge a,
+.restaurant-mericourt a {
+  width: 100%;
+}
+.restaurant-cite-rouge,
+.restaurant-mericourt {
+  margin-top: 50px;
+}
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
+  width: 100%;
+  height: 180px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  object-fit: cover;
+}
+
+.titre-accueil-menu1,
+.titre-menilmontant,
+.titre-accueil-menu2,
+.titre-charonne,
+.titre-accueil-menu3,
+.titre-cite-rouge,
+.titre-accueil-menu4,
+.titre-mericourt {
+  padding-top: 2%;
+  margin-left: 4%;
+  font-size: x-large;
+}
+
+.titre-menilmontant,
+.titre-charonne,
+.titre-cite-rouge,
+.titre-mericourt {
+  font-weight: normal;
+}
+
+.restaurant-menilmontant,
+.restaurant-charonne,
+.restaurant-cite-rouge,
+.restaurant-mericourt {
+  position: relative;
+}
+
+#coeur1 {
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 75%;
+  left: 90%;
+  font-size: 1.7rem;
+}
+
+#coeur2 {
+  display: flex;
+  position: absolute;
+  top: 75%;
+  left: 90%;
+  font-size: 1.8rem;
+}
+
+#coeur2:hover {
+  /* background-color: yellow; */
+  transition: 1s;
+  /* -webkit-background-clip: text; */
+  /* background-color: red;
+  color: transparent; */
+  color: #9356dc;
+  transition: 1s;
+}
+
+.nouveau {
+  border: 1px solid black;
+  background-color: #99e2d0;
+  padding: 7px;
+  color: teal;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.nouveau:hover {
+  margin-right: 1px;
+  transition: 1s;
+  background-color: #99e2d0e3;
+}
+
+/* #coeur2-2 {
+  display: flex;
+  position: absolute;
+  top: 75%;
+  left: 90%;
+  font-size: 1.5rem;
+}
+
+#coeur2-2:hover {
+  color: #9356dc;
+  transition: 1s;
+} */
+
+/* --------------------------------- footer -------------------------------*/
+
+footer {
+  background-color: #282828;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  cursor: pointer;
+}
+
+.titre-ohmyfood {
+  font-family: Shrikhand-Regular;
+  font-size: 1.7rem;
+}
+
+.fa-utensils,
+.fa-hands-helping {
+  margin-right: 5px;
+}
+
+li:nth-child(1) {
+  margin-left: 10px;
+}
+
+li:nth-child(5) {
+  margin-right: 10px;
+}
+
+.contact1 {
+  text-decoration: none;
+  color: white;
+}
