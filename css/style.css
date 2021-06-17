@@ -1,0 +1,164 @@
+/* ------------------------------ page d'accueil ---------------------*/
+
+@font-face {
+  font-family: "Shrikhand-Regular";
+  src: url(./assets/fonts/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto-Medium";
+}
+/* --------------------- logo ---------------------------*/
+
+.logo {
+  display: block;
+  margin: 0px auto;
+  object-fit: cover;
+}
+/* --------------------- case recherche ------------------*/
+
+.box-localisation {
+  border-top-color: rgba(128, 128, 128, 0.445);
+  box-shadow: 2px 2px 7px 4px rgba(128, 128, 128, 0.623);
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.205);
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: rgba(128, 128, 128, 0);
+  /* font-family: "Roboto Medium"; */
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+
+.fa-map-marker-alt {
+  font-size: 1.2rem;
+}
+
+/* ------------------ container réservation ------------------------------ */
+
+.box-reservation {
+  border: 1px solid rgba(128, 128, 128, 0);
+  background: #f2f2f2;
+  height: 240px;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  /* font-family: "Roboto Medium"; */
+  margin-top: 5px;
+}
+
+.titre1-h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.397);
+}
+
+.bouton-explorer {
+  outline: none;
+  border: none;
+  border-radius: 9999px;
+  width: 240px;
+  height: 60px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background: linear-gradient(190deg, #9356dc, #ff79da);
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.bouton-explorer:hover {
+  background: #9256dcce;
+  box-shadow: 1px 0px 0px 1px #9256dcce;
+}
+
+/* ---------------------------- main ----------------------------*/
+
+.ensemble-fonctionnement {
+  text-align: center;
+  position: relative;
+}
+
+.titre2-h2 {
+  font-size: xx-large;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  /* font-family: "Roboto Medium"; */
+}
+
+.bouton-main {
+  outline: none;
+  border: none;
+  border-radius: 15px 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 350px;
+  height: 60px;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin: 0 auto;
+  text-align: start;
+  /* font-family: "Roboto Medium"; */
+}
+
+.bouton-main:hover {
+  background-color: rgba(128, 128, 128, 0.192);
+}
+
+/* .btn2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+} */
+.bouton-main:hover {
+  color: #9356dc;
+}
+
+.fa-mobile-alt,
+.fa-bars,
+.fa-store {
+  padding: 5% 10%;
+  font-size: 1.2rem;
+}
+.number {
+  position: relative;
+  left: 15px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 3px;
+  background-color: #9356dc;
+  color: white;
+  /* font-family: "Roboto Medium"; */
+}
+.text {
+  font-size: 1.2rem;
+}
