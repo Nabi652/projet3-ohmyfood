@@ -42,6 +42,11 @@ body {
   justify-content: center;
 }
 
+.box-icone-lieu {
+  display: flex;
+  align-items: center;
+}
+
 input {
   outline: none;
   border: none;
