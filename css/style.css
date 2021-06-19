@@ -471,12 +471,15 @@ a {
 .titre-article2,
 .titre-article3,
 .titre-article4,
+.titre-article4-4,
 .titre-article5,
 .titre-article6,
 .titre-article7,
+.titre-article7-7,
 .titre-article8,
 .titre-article9,
-.titre-article10 {
+.titre-article10,
+.titre-article10-10 {
   background-color: white;
   margin: 5%;
   display: flex;
@@ -506,12 +509,15 @@ a {
 .titre-article2:hover,
 .titre-article3:hover,
 .titre-article4:hover,
+.titre-article4-4:hover,
 .titre-article5:hover,
 .titre-article6:hover,
 .titre-article7:hover,
+.titre-article7-7:hover,
 .titre-article8:hover,
 .titre-article9:hover,
-.titre-article10:hover {
+.titre-article10:hover,
+.titre-article10-10:hover {
   background: linear-gradient(190deg, #9256dc93, #ff79d956);
   transition: all, 400ms;
 }
@@ -693,22 +699,25 @@ a {
   .titre-entrees,
   .titre-desserts,
   .titre-plats {
-    margin: 0px 0px 0px 35px;
+    margin: 0px 0px 0px 40px;
   }
 
   .ensemble2-titres-et-menus {
-    height: 1200px;
+    height: 1300px;
   }
   .titre-article1,
   .titre-article2,
   .titre-article3,
   .titre-article4,
+  .titre-article4-4,
   .titre-article5,
   .titre-article6,
   .titre-article7,
+  .titre-article7-7,
   .titre-article8,
   .titre-article9,
-  .titre-article10 {
+  .titre-article10,
+  .titre-article10-10 {
     width: 600px;
     margin: 0 auto;
   }
@@ -720,7 +729,10 @@ a {
 
   .titre-article2,
   .titre-article5,
-  .titre-article8 {
+  .titre-article8,
+  .titre-article4-4,
+  .titre-article7-7,
+  .titre-article10-10 {
     margin-top: 25px;
     margin-bottom: 25px;
   }
