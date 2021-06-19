@@ -484,7 +484,6 @@ a {
   cursor: pointer;
   height: 90px;
   box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.397);
-
   animation: fadein 1s 1s linear both;
   position: relative;
 }
@@ -646,10 +645,6 @@ a {
 /* --------------------------------- media query ---------------------------------*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  body {
-    background-color: red;
-  }
-
   .ensemble-fonctionnement {
     display: flex;
     flex-direction: column;
@@ -684,5 +679,33 @@ a {
   li:nth-child(5) {
     padding-top: 10px;
     padding-left: 30px;
+  }
+
+  /* ------------------------------- menu des restaurants -------------------------------------*/
+  main {
+    border: 5px solid black;
+  }
+
+  /* .ensemble1-titres-au-bouton {
+    padding: 0px;
+    margin-top: 0px;
+  } */
+
+  .ensemble2-titres-et-menus {
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .titre-entrees,
+  .titre-desserts,
+  .titre-plats {
+    display: inline-block;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.795);
+    margin: 0px;
+    border-bottom: 4px solid #99e2d0;
+    width: 30px;
   }
 }
