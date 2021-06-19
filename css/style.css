@@ -377,7 +377,7 @@ a {
   height: 100%;
   width: 100%;
 }
-.logo-menu {
+.photo-menu {
   height: 350px;
   width: 100%;
   object-fit: cover;
@@ -682,17 +682,9 @@ a {
   }
 
   /* ------------------------------- menu des restaurants -------------------------------------*/
-  main {
-    border: 5px solid black;
-  }
-
-  /* .ensemble1-titres-au-bouton {
-    padding: 0px;
-    margin-top: 0px;
-  } */
 
   .ensemble2-titres-et-menus {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     justify-content: center;
@@ -701,11 +693,35 @@ a {
   .titre-entrees,
   .titre-desserts,
   .titre-plats {
-    display: inline-block;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.795);
-    margin: 0px;
-    border-bottom: 4px solid #99e2d0;
-    width: 30px;
+    margin: 0px 0px 0px 35px;
+  }
+
+  .ensemble2-titres-et-menus {
+    height: 1200px;
+  }
+  .titre-article1,
+  .titre-article2,
+  .titre-article3,
+  .titre-article4,
+  .titre-article5,
+  .titre-article6,
+  .titre-article7,
+  .titre-article8,
+  .titre-article9,
+  .titre-article10 {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .ensemble3-entrees-sans-titres,
+  .ensemble4-plats-sans-titres,
+  .ensemble5-desserts-sans-titres {
+    width: 100%;
+  }
+
+  .titre-article2,
+  .titre-article5,
+  .titre-article8 {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
