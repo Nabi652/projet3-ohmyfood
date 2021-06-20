@@ -766,7 +766,7 @@ a {
   }
 }
 
-@media only screen and (min-device-width: 367px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
   .logo {
     width: 70%;
   }
@@ -820,6 +820,61 @@ a {
   .titre-ohmyfood {
     padding-left: 20px;
     margin-bottom: 15px;
+  }
+
+  /* ------------------------------------ media query des menus  --------------------------*/
+
+  .titre-menu {
+    margin: 0px;
+    padding-left: 15px;
+    margin-bottom: 40px;
+  }
+
+  .ensemble2-titres-et-menus {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .titre-entrees,
+  .titre-desserts,
+  .titre-plats {
+    margin: 0px 0px 0px 40px;
+  }
+
+  .ensemble2-titres-et-menus {
+    height: 1300px;
+  }
+  .titre-article1,
+  .titre-article2,
+  .titre-article3,
+  .titre-article4,
+  .titre-article4-4,
+  .titre-article5,
+  .titre-article6,
+  .titre-article7,
+  .titre-article7-7,
+  .titre-article8,
+  .titre-article9,
+  .titre-article10,
+  .titre-article10-10 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ensemble3-entrees-sans-titres,
+  .ensemble4-plats-sans-titres,
+  .ensemble5-desserts-sans-titres {
+    width: 100%;
+  }
+
+  .titre-article2,
+  .titre-article5,
+  .titre-article8,
+  .titre-article4-4,
+  .titre-article7-7,
+  .titre-article10-10 {
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
