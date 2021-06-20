@@ -340,9 +340,11 @@ footer ul {
   font-size: 1.7rem;
 }
 
-.fa-utensils,
+.fa-utensils {
+  margin-right: 20px;
+}
 .fa-hands-helping {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 li:nth-child(1) {
@@ -648,9 +650,10 @@ a {
   margin-top: 75px;
 }
 
-/* --------------------------------- media query ---------------------------------*/
+/* --------------------------------- media query  ---------------------------------*/
+/* ---------------------- IPAD -----------------------*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1283px) and (-webkit-min-device-pixel-ratio: 1) {
   .ensemble-fonctionnement {
     display: flex;
     flex-direction: column;
@@ -735,5 +738,93 @@ a {
   .titre-article10-10 {
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-device-width: 930px) and (max-device-width: 1283px) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .restaurant-menilmontant,
+  .restaurant-charonne,
+  .restaurant-cite-rouge,
+  .restaurant-mericourt {
+    margin: 0px;
+    width: 70%;
+  }
+
+  .restaurant-menilmontant,
+  .restaurant-charonne,
+  .restaurant-cite-rouge {
+    margin-bottom: 30px;
+  }
+  .restaurant-mericourt {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-device-width: 367px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
+  .logo {
+    width: 70%;
+  }
+
+  .ensemble-fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bouton-main {
+    width: 80%;
+  }
+
+  .btn2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .restaurant-menilmontant,
+  .restaurant-charonne,
+  .restaurant-cite-rouge,
+  .restaurant-mericourt {
+    width: 90%;
+    margin: 0;
+  }
+  .menu a {
+    height: 100%;
+  }
+
+  .restaurant-menilmontant,
+  .restaurant-charonne,
+  .restaurant-cite-rouge {
+    margin-bottom: 15px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titre-ohmyfood {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 430px) {
+  .bouton-main {
+    max-width: 420px;
   }
 }
