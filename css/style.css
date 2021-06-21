@@ -292,43 +292,6 @@ aside a {
   cursor: pointer;
 }
 
-/* 
-#coeur1 {
-  /*- coeur rempli 
-  display: flex;
-  position: absolute;
-  top: 75%;
-  left: 90%;
-  font-size: 1.7rem;
-  display: none;
-}
-
-#coeur2 {
-   ------------- coeur vide
-  display: flex;
-  position: absolute;
-  top: 75%;
-  left: 90%;
-  font-size: 1.8rem;
-  display: none;
-}
-
-#coeur1:hover {
-  display: block;
-  background-color: red;
-  animation-clip: red;
-}
-/*
-#coeur2:hover {
-  /* background-color: yellow; 
-  transition: 1s;
-  /* -webkit-background-clip: text; */
-/* background-color: red;
-  color: transparent; 
-  color: #9356dc;
-  transition: 1s;
-} */
-
 .nouveau {
   border: 1px solid black;
   background-color: #99e2d0;
@@ -344,19 +307,6 @@ aside a {
   transition: 1s;
   background-color: #99e2d0e3;
 }
-
-/* #coeur2-2 {
-  display: flex;
-  position: absolute;
-  top: 75%;
-  left: 90%;
-  font-size: 1.5rem;
-}
-
-#coeur2-2:hover {
-  color: #9356dc;
-  transition: 1s;
-} */
 
 /* --------------------------------- footer -------------------------------*/
 
@@ -464,35 +414,35 @@ a {
 
 /* ----------------------------- h2 et icône coeur ---------------------*/
 
-#coeur1-3,
-#coeur1-1 {
-  display: none;
-}
-
-/* #coeur1-3 {
-  color: #e5e5e5;
-  transition: color 1s ease-out;
-}
-
-#coeur1-3:hover {
-  color: red;
-}
-
-#coeur1-1 {
-  display: flex;
-  position: absolute;
-  right: 9%;
-  font-size: 1.8rem;
-  top: 2%;
-}
-
-#coeur1-3 {
-  display: flex;
-  position: absolute;
-  right: 9.6%;
+.coeur-effet #coeur-rempli {
+  color: transparent;
+  position: relative;
+  left: 528px;
+  bottom: 95px;
+  background: linear-gradient(#ff79da, #99e2d0);
+  background-clip: text;
+  opacity: 0;
   font-size: 1.5rem;
-  top: 2.21%;
-} */
+}
+
+.coeur-effet #coeur-vide {
+  position: relative;
+  left: 500px;
+  bottom: 95px;
+  font-size: 1.5rem;
+}
+
+.coeur-effet:hover #coeur-rempli {
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.coeur-effet:hover #coeur-vide {
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
 
 /* ---------------------------- les entrées ----------------------*/
 
@@ -918,18 +868,536 @@ a {
   }
 }
 
+/* ---------------------- hover coeur de l'accueil -----------------------*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 378px) {
+  .coeur-effet .fas {
+    left: 268px;
+  }
+
+  .coeur-effet .far {
+    left: 240px;
+  }
+}
+
+@media only screen and (min-device-width: 379px) and (max-device-width: 440px) {
+  .coeur-effet .fas {
+    left: 308px;
+  }
+
+  .coeur-effet .far {
+    left: 280px;
+  }
+}
+
+@media only screen and (min-device-width: 441px) and (max-device-width: 480px) {
+  .coeur-effet .fas {
+    left: 328px;
+  }
+
+  .coeur-effet .far {
+    left: 300px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 520px) {
+  .coeur-effet .fas {
+    left: 388px;
+  }
+
+  .coeur-effet .far {
+    left: 360px;
+  }
+}
+
+@media only screen and (min-device-width: 521px) and (max-device-width: 585px) {
+  .coeur-effet .fas {
+    left: 428px;
+  }
+
+  .coeur-effet .far {
+    left: 400px;
+  }
+}
+
+@media only screen and (min-device-width: 586px) and (max-device-width: 620px) {
+  .coeur-effet .fas {
+    left: 458px;
+  }
+
+  .coeur-effet .far {
+    left: 430px;
+  }
+}
+@media only screen and (min-device-width: 655px) and (max-device-width: 700px) {
+  .coeur-effet .fas {
+    left: 528px;
+  }
+
+  .coeur-effet .far {
+    left: 500px;
+  }
+}
+
+@media only screen and (min-device-width: 701px) and (max-device-width: 745px) {
+  .coeur-effet .fas {
+    left: 548px;
+  }
+
+  .coeur-effet .far {
+    left: 520px;
+  }
+}
+@media only screen and (min-device-width: 746px) and (max-device-width: 767px) {
+  .coeur-effet .fas {
+    left: 588px;
+  }
+
+  .coeur-effet .far {
+    left: 560px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 929px) {
+  .coeur-effet .fas {
+    left: 277px;
+  }
+
+  .coeur-effet .far {
+    left: 250px;
+  }
+}
+
+@media only screen and (min-device-width: 930px) and (max-device-width: 987px) {
+  .coeur-effet .fas {
+    left: 618px;
+  }
+
+  .coeur-effet .far {
+    left: 590px;
+  }
+}
+
+@media only screen and (min-device-width: 988px) and (max-device-width: 1085px) {
+  .coeur-effet .fas {
+    left: 647px;
+  }
+
+  .coeur-effet .far {
+    left: 620px;
+  }
+}
+
+@media only screen and (min-device-width: 1086px) and (max-device-width: 1155px) {
+  .coeur-effet .fas {
+    left: 718px;
+  }
+
+  .coeur-effet .far {
+    left: 690px;
+  }
+}
+@media only screen and (min-device-width: 1156px) and (max-device-width: 1244px) {
+  .coeur-effet .fas {
+    left: 768px;
+  }
+
+  .coeur-effet .far {
+    left: 740px;
+  }
+}
+
+@media only screen and (min-device-width: 1245px) and (max-device-width: 1283px) {
+  .coeur-effet .fas {
+    left: 818px;
+  }
+
+  .coeur-effet .far {
+    left: 790px;
+  }
+}
+
+@media only screen and (min-device-width: 1284px) and (max-device-width: 1410px) {
+  .coeur-effet .fas {
+    left: 408px;
+  }
+
+  .coeur-effet .far {
+    left: 380px;
+  }
+}
+
+@media only screen and (min-device-width: 1410px) and (max-device-width: 1500px) {
+  .coeur-effet .fas {
+    left: 448px;
+  }
+
+  .coeur-effet .far {
+    left: 420px;
+  }
+}
+
+@media only screen and (min-device-width: 1501px) {
+  .coeur-effet .fas {
+    left: 488px;
+  }
+
+  .coeur-effet .far {
+    left: 460px;
+  }
+}
+
+/* ---------------- media query : hover coeur des menus ----------------------------- */
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 375px) {
+  .coeur-effet #coeur-rempli {
+    left: 327px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 305px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 400px) {
+  .coeur-effet #coeur-rempli {
+    left: 348px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 320px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 401px) and (max-device-width: 430px) {
+  .coeur-effet #coeur-rempli {
+    left: 368px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 340px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 431px) and (max-device-width: 470px) {
+  .coeur-effet #coeur-rempli {
+    left: 398px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 370px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 471px) and (max-device-width: 500px) {
+  .coeur-effet #coeur-rempli {
+    left: 413px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 385px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 535px) {
+  .coeur-effet #coeur-rempli {
+    left: 448px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 420px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 536px) and (max-device-width: 570px) {
+  .coeur-effet #coeur-rempli {
+    left: 478px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 450px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 571px) and (max-device-width: 610px) {
+  .coeur-effet #coeur-rempli {
+    left: 498px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 470px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 611px) and (max-device-width: 640px) {
+  .coeur-effet #coeur-rempli {
+    left: 528px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 500px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 670px) {
+  .coeur-effet #coeur-rempli {
+    left: 568px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 540px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 671px) and (max-device-width: 710px) {
+  .coeur-effet #coeur-rempli {
+    left: 598px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 570px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 711px) and (max-device-width: 740px) {
+  .coeur-effet #coeur-rempli {
+    left: 628px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 600px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 741px) and (max-device-width: 790px) {
+  .coeur-effet #coeur-rempli {
+    left: 678px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 650px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 791px) and (max-device-width: 860px) {
+  .coeur-effet #coeur-rempli {
+    left: 718px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 690px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 861px) and (max-device-width: 910px) {
+  .coeur-effet #coeur-rempli {
+    left: 768px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 740px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 711px) and (max-device-width: 950px) {
+  .coeur-effet #coeur-rempli {
+    left: 798px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 770px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 951px) and (max-device-width: 1030px) {
+  .coeur-effet #coeur-rempli {
+    left: 858px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 830px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1031px) and (max-device-width: 1100px) {
+  .coeur-effet #coeur-rempli {
+    left: 918px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 890px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1101px) and (max-device-width: 1130px) {
+  .coeur-effet #coeur-rempli {
+    left: 1008px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 980px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1131px) and (max-device-width: 1170px) {
+  .coeur-effet #coeur-rempli {
+    left: 1028px;
+    bottom: 75px;
+  }
+  .coeur-effet #coeur-vide {
+    left: 1000px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1171px) and (max-device-width: 1210px) {
+  .coeur-effet #coeur-rempli {
+    left: 1078px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1050px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1211px) and (max-device-width: 1240px) {
+  .coeur-effet #coeur-rempli {
+    left: 1108px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1080px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1241px) and (max-device-width: 1280px) {
+  .coeur-effet #coeur-rempli {
+    left: 1138px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1110px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1360px) {
+  .coeur-effet #coeur-rempli {
+    left: 1178px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1150px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1361px) and (max-device-width: 1400px) {
+  .coeur-effet #coeur-rempli {
+    left: 1218px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1190px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1401px) and (max-device-width: 1450px) {
+  .coeur-effet #coeur-rempli {
+    left: 1268px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1240px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1451px) and (max-device-width: 1490px) {
+  .coeur-effet #coeur-rempli {
+    left: 1318px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1290px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (min-device-width: 1491px) {
+  .coeur-effet #coeur-rempli {
+    left: 1358px;
+    bottom: 75px;
+  }
+
+  .coeur-effet #coeur-vide {
+    left: 1330px;
+    bottom: 75px;
+  }
+}
+
 @media only screen and (min-device-width: 430px) {
   .bouton-main {
     max-width: 420px;
   }
 }
+
 /* -------------------- loading spinner ---------------------- 
 .loading-spinner {
   cursor: progress;
   position: absolute;
 
   width: 100%;
-  height: 100%;
+  he
+  
+  ight: 100%;
 }
 
 .loading-spinner::before {
