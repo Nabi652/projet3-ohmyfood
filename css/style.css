@@ -262,32 +262,72 @@ aside a {
   position: relative;
 }
 
+.coeur-effet .fas {
+  color: transparent;
+  position: relative;
+  left: 480px;
+  bottom: 65px;
+  background: linear-gradient(#ff79da, #99e2d0);
+  background-clip: text;
+  opacity: 0;
+  font-size: 1.5rem;
+}
+
+.coeur-effet .far {
+  position: relative;
+  left: 452px;
+  bottom: 65px;
+  font-size: 1.5rem;
+}
+
+.coeur-effet:hover .fas {
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.coeur-effet:hover .far {
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* 
 #coeur1 {
-  color: white;
+  /*- coeur rempli 
   display: flex;
   position: absolute;
   top: 75%;
   left: 90%;
   font-size: 1.7rem;
+  display: none;
 }
 
 #coeur2 {
+   ------------- coeur vide
   display: flex;
   position: absolute;
   top: 75%;
   left: 90%;
   font-size: 1.8rem;
+  display: none;
 }
 
+#coeur1:hover {
+  display: block;
+  background-color: red;
+  animation-clip: red;
+}
+/*
 #coeur2:hover {
-  /* background-color: yellow; */
+  /* background-color: yellow; 
   transition: 1s;
   /* -webkit-background-clip: text; */
-  /* background-color: red;
-  color: transparent; */
+/* background-color: red;
+  color: transparent; 
   color: #9356dc;
   transition: 1s;
-}
+} */
 
 .nouveau {
   border: 1px solid black;
@@ -883,3 +923,48 @@ a {
     max-width: 420px;
   }
 }
+/* -------------------- loading spinner ---------------------- 
+.loading-spinner {
+  cursor: progress;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+.loading-spinner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100000000000;
+  overflow: hidden;
+
+  opacity: 0.6;
+}
+
+.loading-spinner::after {
+  box-sizing: border-box;
+  z-index: 10002;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  animation: custom-loading 1s linear infinite;
+}
+
+@keyframes custom-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+*/
