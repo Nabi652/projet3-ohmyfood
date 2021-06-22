@@ -497,7 +497,7 @@ a {
   }
 }
 
-.titre-article1:hover,
+/* .titre-article1:hover,
 .titre-article2:hover,
 .titre-article3:hover,
 .titre-article4:hover,
@@ -512,7 +512,7 @@ a {
 .titre-article10-10:hover {
   background: linear-gradient(190deg, #9256dc93, #ff79d956);
   transition: all, 400ms;
-}
+} */
 
 .h4-article1,
 .h5-article1,
@@ -599,16 +599,67 @@ a {
   padding-bottom: 3%;
 }
 
-.prix {
+p {
   position: absolute;
-  right: 5%;
+  right: 2%;
   bottom: 10%;
 }
 
 /* ------------------------------------ icone checked -------------------------------*/
 
-.cube1 {
+/* .cube1 {
   display: none;
+} */
+
+.cube1 {
+  width: 0;
+  height: 90px;
+  border-radius: 0 15px 15px 0;
+  transition: 1s ease-in-out;
+  margin-right: 20px;
+  border: 1px red solid;
+}
+
+.box-prix {
+  display: flex;
+  transition: 1s ease-in-out;
+}
+
+p {
+  /* margin-right: 30px; */
+  margin-bottom: 10px;
+  transition: 1s ease-in-out;
+}
+
+.fa-check-circle {
+  transition: 1s ease-in-out;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.box-prix:hover p {
+  margin-right: 35px;
+}
+
+.box-prix:hover .cube1 {
+  display: block;
+  background-color: #99e2d0;
+  transition: all, 400ms;
+  text-align: center;
+  width: 80px;
+}
+
+.box-prix:hover .fa-check-circle {
+  transform: rotate(360deg);
+  transition: all, 1s;
+  color: white;
+  overflow: hidden;
+  margin-top: 35px;
+}
+
+.cube1 {
+  transition: 1s;
 }
 
 /* -------------------------------------- bouton commander ----------------------------------------------- */
