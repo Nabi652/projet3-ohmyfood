@@ -268,7 +268,7 @@ aside a {
   left: 480px;
   bottom: 65px;
   background: linear-gradient(#ff79da, #99e2d0);
-  background-clip: text;
+  -webkit-background-clip: text;
   opacity: 0;
   font-size: 1.5rem;
 }
