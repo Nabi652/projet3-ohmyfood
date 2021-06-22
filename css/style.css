@@ -267,7 +267,7 @@ aside a {
   position: relative;
   left: 480px;
   bottom: 65px;
-  background: linear-gradient(#ff79da, #99e2d0);
+  background: linear-gradient(#ff79da, #9356dc);
   -webkit-background-clip: text;
   opacity: 0;
   font-size: 1.5rem;
@@ -419,8 +419,8 @@ a {
   position: relative;
   left: 528px;
   bottom: 95px;
-  background: linear-gradient(#ff79da, #99e2d0);
-  background-clip: text;
+  background: linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
   opacity: 0;
   font-size: 1.5rem;
 }
