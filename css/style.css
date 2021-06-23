@@ -481,6 +481,8 @@ a {
   box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.397);
   animation: fadein 1s 1s linear both;
   position: relative;
+  overflow: hidden;
+  justify-content: space-between;
 }
 
 @keyframes fadein {
@@ -496,23 +498,6 @@ a {
     opacity: 1;
   }
 }
-
-/* .titre-article1:hover,
-.titre-article2:hover,
-.titre-article3:hover,
-.titre-article4:hover,
-.titre-article4-4:hover,
-.titre-article5:hover,
-.titre-article6:hover,
-.titre-article7:hover,
-.titre-article7-7:hover,
-.titre-article8:hover,
-.titre-article9:hover,
-.titre-article10:hover,
-.titre-article10-10:hover {
-  background: linear-gradient(190deg, #9256dc93, #ff79d956);
-  transition: all, 400ms;
-} */
 
 .h4-article1,
 .h5-article1,
@@ -551,8 +536,8 @@ a {
 .h4-article4-1,
 .h4-article5,
 .h4-article6,
-/* .h4-article6-6,
-.h4-article6-6, */
+.h4-article6-6,
+.h4-article6-6,
 .h4-article7,
 .h4-article8,
 .h4-article9,
@@ -599,69 +584,56 @@ a {
   padding-bottom: 3%;
 }
 
-p {
+/* p {
   position: absolute;
-  right: 2%;
+  right: 20%;
   bottom: 10%;
-}
-
-/* ------------------------------------ icone checked -------------------------------*/
-
-/* .cube1 {
-  display: none;
 } */
 
-.cube1 {
-  width: 0;
-  height: 90px;
-  border-radius: 0 15px 15px 0;
-  transition: 1s ease-in-out;
-  margin-right: 20px;
-  border: 1px red solid;
-}
+/* -------------------- animation slide --------------------------------*/
 
-.box-prix {
-  display: flex;
-  transition: 1s ease-in-out;
-}
-
-p {
-  /* margin-right: 30px; */
-  margin-bottom: 10px;
-  transition: 1s ease-in-out;
-}
-
-.fa-check-circle {
-  transition: 1s ease-in-out;
-  margin-top: 20px;
-  color: white;
-  font-size: 1.5em;
-}
-
-.box-prix:hover p {
-  margin-right: 35px;
-}
-
-.box-prix:hover .cube1 {
-  display: block;
-  background-color: #99e2d0;
-  transition: all, 400ms;
-  text-align: center;
-  width: 80px;
-}
-
-.box-prix:hover .fa-check-circle {
-  transform: rotate(360deg);
-  transition: all, 1s;
-  color: white;
-  overflow: hidden;
-  margin-top: 35px;
-}
-
-.cube1 {
+.titre-article1 p {
   transition: 1s;
 }
+/* ---------------------  pour aligner icone checked ------------------------*/
+.box-prix {
+  display: flex;
+  align-items: center;
+  margin-right: -17px;
+  transition: 800ms;
+}
+/* ----------- mettre hover sur l'article ------------------------------*/
+.titre-article1:hover .box-prix {
+  margin-right: 0px;
+  width: 70px;
+  background-color: #99e2d0;
+}
 
+.box-icone i {
+  color: white;
+  transition: none;
+  /* padding: 20px; */
+  /* margin: 0; */
+  transition: transform 800ms ease-in-out;
+  font-size: 1.5rem;
+}
+
+.titre-article1:hover .fa-check-circle {
+  transform: rotate(-360deg);
+}
+
+/* .ensemble3-entrees-sans-titres {
+  animation-delay: 300ms;
+} */
+/* ----------------- mouvement vers la gauche du prix --------------*/
+/* 
+.box-prix:hover p {
+  margin-right: -30px;
+} */
+
+p:hover {
+  margin-right: 30px;
+}
 /* -------------------------------------- bouton commander ----------------------------------------------- */
 
 .bouton-commander {
