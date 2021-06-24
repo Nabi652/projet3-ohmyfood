@@ -410,6 +410,7 @@ a {
   width: 30%;
   height: 100%;
   margin-top: 25px;
+  border: 1px solid red;
 }
 
 /* ----------------------------- h2 et icône coeur ---------------------*/
@@ -498,6 +499,7 @@ a {
   position: relative;
   overflow: hidden;
   justify-content: space-between;
+  width: 90%;
 }
 
 /* -------------------- animation entrée des 3 blocs (entrées / plats / desserts -----------*/
