@@ -564,6 +564,9 @@ a {
 .h4-article11,
 .h5-article11 {
   padding-left: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .h4-article1,
