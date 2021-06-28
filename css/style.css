@@ -444,7 +444,6 @@ a {
 .titre-plats {
   display: inline-block;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0s.795);
   margin-bottom: 420px;
   border-bottom: 4px solid #99e2d0;
   width: 30px;
@@ -705,7 +704,7 @@ p {
 /* --------------------------------- media query  ---------------------------------*/
 /* ---------------------- IPAD -----------------------*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1283px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 768px) and (max-width: 1283px) and (-webkit-min-pixel-ratio: 1) {
   .ensemble-fonctionnement {
     display: flex;
     flex-direction: column;
@@ -793,7 +792,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 930px) and (max-device-width: 1283px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 930px) and (max-width: 1283px) and (-webkit-min-pixel-ratio: 1) {
   .menu {
     display: flex;
     flex-direction: column;
@@ -818,7 +817,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .logo {
     width: 70%;
   }
@@ -931,7 +930,7 @@ p {
 }
 
 /* ---------------------- hover coeur de l'accueil -----------------------*/
-@media only screen and (min-device-width: 360px) and (max-device-width: 375px) {
+@media only screen and (min-width: 360px) and (max-width: 375px) {
   .coeur-effet .fas {
     left: 268px;
   }
@@ -941,7 +940,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 379px) and (max-device-width: 440px) {
+@media only screen and (min-width: 379px) and (max-width: 440px) {
   .coeur-effet .fas {
     left: 308px;
   }
@@ -951,7 +950,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 441px) and (max-device-width: 480px) {
+@media only screen and (min-width: 441px) and (max-width: 480px) {
   .coeur-effet .fas {
     left: 328px;
   }
@@ -961,7 +960,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 520px) {
+@media only screen and (min-width: 481px) and (max-width: 520px) {
   .coeur-effet .fas {
     left: 388px;
   }
@@ -971,7 +970,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 521px) and (max-device-width: 585px) {
+@media only screen and (min-width: 521px) and (max-width: 585px) {
   .coeur-effet .fas {
     left: 428px;
   }
@@ -981,7 +980,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 586px) and (max-device-width: 654px) {
+@media only screen and (min-width: 586px) and (max-width: 654px) {
   .coeur-effet .fas {
     left: 458px;
   }
@@ -990,7 +989,7 @@ p {
     left: 430px;
   }
 }
-@media only screen and (min-device-width: 655px) and (max-device-width: 700px) {
+@media only screen and (min-width: 655px) and (max-width: 700px) {
   .coeur-effet .fas {
     left: 528px;
   }
@@ -1000,7 +999,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 701px) and (max-device-width: 745px) {
+@media only screen and (min-width: 701px) and (max-width: 745px) {
   .coeur-effet .fas {
     left: 548px;
   }
@@ -1010,16 +1009,7 @@ p {
   }
 }
 
-/* @media only screen and (min-device-width: 710px) and (max-device-width: px) {
-  .coeur-effet .fas {
-    left: 548px;
-  }
-
-  .coeur-effet .far {
-    left: 520px;
-  }
-} */
-@media only screen and (min-device-width: 746px) and (max-device-width: 767px) {
+@media only screen and (min-width: 746px) and (max-width: 767px) {
   .coeur-effet .fas {
     left: 588px;
   }
@@ -1029,7 +1019,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 929px) {
+@media only screen and (min-width: 768px) and (max-width: 929px) {
   .coeur-effet .fas {
     left: 277px;
   }
@@ -1039,7 +1029,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 930px) and (max-device-width: 987px) {
+@media only screen and (min-width: 930px) and (max-width: 987px) {
   .coeur-effet .fas {
     left: 618px;
   }
@@ -1049,7 +1039,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 988px) and (max-device-width: 1085px) {
+@media only screen and (min-width: 988px) and (max-width: 1085px) {
   .coeur-effet .fas {
     left: 647px;
   }
@@ -1059,7 +1049,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1086px) and (max-device-width: 1155px) {
+@media only screen and (min-width: 1086px) and (max-width: 1155px) {
   .coeur-effet .fas {
     left: 718px;
   }
@@ -1068,7 +1058,7 @@ p {
     left: 690px;
   }
 }
-@media only screen and (min-device-width: 1156px) and (max-device-width: 1244px) {
+@media only screen and (min-width: 1156px) and (max-width: 1244px) {
   .coeur-effet .fas {
     left: 768px;
   }
@@ -1078,7 +1068,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1245px) and (max-device-width: 1283px) {
+@media only screen and (min-width: 1245px) and (max-width: 1283px) {
   .coeur-effet .fas {
     left: 818px;
   }
@@ -1088,7 +1078,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1284px) and (max-device-width: 1410px) {
+@media only screen and (min-width: 1284px) and (max-width: 1410px) {
   .coeur-effet .fas {
     left: 408px;
   }
@@ -1098,7 +1088,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1410px) and (max-device-width: 1500px) {
+@media only screen and (min-width: 1410px) and (max-width: 1500px) {
   .coeur-effet .fas {
     left: 448px;
   }
@@ -1108,7 +1098,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1501px) {
+@media only screen and (min-width: 1501px) {
   .coeur-effet .fas {
     left: 488px;
   }
@@ -1120,7 +1110,7 @@ p {
 
 /* ---------------- media query : hover coeur des menus ----------------------------- */
 
-@media only screen and (min-device-width: 350px) and (max-device-width: 375px) {
+@media only screen and (min-width: 350px) and (max-width: 375px) {
   .coeur-effet #coeur-rempli {
     left: 333px;
     bottom: 75px;
@@ -1132,7 +1122,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 376px) and (max-device-width: 400px) {
+@media only screen and (min-width: 376px) and (max-width: 400px) {
   .coeur-effet #coeur-rempli {
     left: 348px;
     bottom: 75px;
@@ -1144,7 +1134,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 401px) and (max-device-width: 430px) {
+@media only screen and (min-width: 401px) and (max-width: 430px) {
   .coeur-effet #coeur-rempli {
     left: 368px;
     bottom: 75px;
@@ -1156,7 +1146,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 431px) and (max-device-width: 470px) {
+@media only screen and (min-width: 431px) and (max-width: 470px) {
   .coeur-effet #coeur-rempli {
     left: 398px;
     bottom: 75px;
@@ -1168,7 +1158,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 471px) and (max-device-width: 500px) {
+@media only screen and (min-width: 471px) and (max-width: 500px) {
   .coeur-effet #coeur-rempli {
     left: 413px;
     bottom: 75px;
@@ -1180,7 +1170,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 535px) {
+@media only screen and (min-width: 501px) and (max-width: 535px) {
   .coeur-effet #coeur-rempli {
     left: 448px;
     bottom: 75px;
@@ -1192,7 +1182,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 536px) and (max-device-width: 570px) {
+@media only screen and (min-width: 536px) and (max-width: 570px) {
   .coeur-effet #coeur-rempli {
     left: 478px;
     bottom: 75px;
@@ -1204,7 +1194,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 571px) and (max-device-width: 610px) {
+@media only screen and (min-width: 571px) and (max-width: 610px) {
   .coeur-effet #coeur-rempli {
     left: 498px;
     bottom: 75px;
@@ -1216,7 +1206,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 611px) and (max-device-width: 640px) {
+@media only screen and (min-width: 611px) and (max-width: 640px) {
   .coeur-effet #coeur-rempli {
     left: 528px;
     bottom: 75px;
@@ -1228,7 +1218,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 641px) and (max-device-width: 670px) {
+@media only screen and (min-width: 641px) and (max-width: 670px) {
   .coeur-effet #coeur-rempli {
     left: 568px;
     bottom: 75px;
@@ -1240,7 +1230,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 671px) and (max-device-width: 710px) {
+@media only screen and (min-width: 671px) and (max-width: 710px) {
   .coeur-effet #coeur-rempli {
     left: 598px;
     bottom: 75px;
@@ -1252,7 +1242,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 711px) and (max-device-width: 740px) {
+@media only screen and (min-width: 711px) and (max-width: 740px) {
   .coeur-effet #coeur-rempli {
     left: 628px;
     bottom: 75px;
@@ -1264,7 +1254,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 741px) and (max-device-width: 790px) {
+@media only screen and (min-width: 741px) and (max-width: 790px) {
   .coeur-effet #coeur-rempli {
     left: 678px;
     bottom: 75px;
@@ -1276,7 +1266,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 791px) and (max-device-width: 860px) {
+@media only screen and (min-width: 791px) and (max-width: 860px) {
   .coeur-effet #coeur-rempli {
     left: 718px;
     bottom: 75px;
@@ -1288,7 +1278,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 861px) and (max-device-width: 910px) {
+@media only screen and (min-width: 861px) and (max-width: 910px) {
   .coeur-effet #coeur-rempli {
     left: 768px;
     bottom: 75px;
@@ -1300,7 +1290,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 911px) and (max-device-width: 950px) {
+@media only screen and (min-width: 911px) and (max-width: 950px) {
   .coeur-effet #coeur-rempli {
     left: 798px;
     bottom: 75px;
@@ -1312,7 +1302,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 951px) and (max-device-width: 1030px) {
+@media only screen and (min-width: 951px) and (max-width: 1030px) {
   .coeur-effet #coeur-rempli {
     left: 858px;
     bottom: 75px;
@@ -1324,7 +1314,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1031px) and (max-device-width: 1100px) {
+@media only screen and (min-width: 1031px) and (max-width: 1100px) {
   .coeur-effet #coeur-rempli {
     left: 918px;
     bottom: 75px;
@@ -1336,7 +1326,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1101px) and (max-device-width: 1130px) {
+@media only screen and (min-width: 1101px) and (max-width: 1130px) {
   .coeur-effet #coeur-rempli {
     left: 1008px;
     bottom: 75px;
@@ -1348,7 +1338,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1131px) and (max-device-width: 1170px) {
+@media only screen and (min-width: 1131px) and (max-width: 1170px) {
   .coeur-effet #coeur-rempli {
     left: 1028px;
     bottom: 75px;
@@ -1359,7 +1349,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1171px) and (max-device-width: 1210px) {
+@media only screen and (min-width: 1171px) and (max-width: 1210px) {
   .coeur-effet #coeur-rempli {
     left: 1078px;
     bottom: 75px;
@@ -1371,7 +1361,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1211px) and (max-device-width: 1240px) {
+@media only screen and (min-width: 1211px) and (max-width: 1240px) {
   .coeur-effet #coeur-rempli {
     left: 1108px;
     bottom: 75px;
@@ -1383,7 +1373,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1241px) and (max-device-width: 1280px) {
+@media only screen and (min-width: 1241px) and (max-width: 1280px) {
   .coeur-effet #coeur-rempli {
     left: 1138px;
     bottom: 75px;
@@ -1395,7 +1385,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1281px) and (max-device-width: 1360px) {
+@media only screen and (min-width: 1281px) and (max-width: 1360px) {
   .coeur-effet #coeur-rempli {
     left: 1178px;
     bottom: 75px;
@@ -1407,7 +1397,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1361px) and (max-device-width: 1400px) {
+@media only screen and (min-width: 1361px) and (max-width: 1400px) {
   .coeur-effet #coeur-rempli {
     left: 1218px;
     bottom: 75px;
@@ -1419,7 +1409,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1401px) and (max-device-width: 1450px) {
+@media only screen and (min-width: 1401px) and (max-width: 1450px) {
   .coeur-effet #coeur-rempli {
     left: 1268px;
     bottom: 75px;
@@ -1431,7 +1421,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1451px) and (max-device-width: 1490px) {
+@media only screen and (min-width: 1451px) and (max-width: 1490px) {
   .coeur-effet #coeur-rempli {
     left: 1318px;
     bottom: 75px;
@@ -1443,7 +1433,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 1491px) {
+@media only screen and (min-width: 1491px) {
   .coeur-effet #coeur-rempli {
     left: 1358px;
     bottom: 75px;
@@ -1455,7 +1445,7 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 430px) {
+@media only screen and (min-width: 430px) {
   .bouton-main {
     max-width: 420px;
   }

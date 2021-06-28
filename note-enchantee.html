@@ -13,43 +13,39 @@
   </head>
   <body>
     <header>
-        <a href="./index.html"> <i class="fas fa-arrow-left"></i></a>
+      <a href="./index.html"> <i class="fas fa-arrow-left"></i></a>
+      <img
+        src="./assets/logo/ohmyfood.png"
+        alt="logo oh my food"
+        class="logo"
+      />
+    </header>
+
+    <main>
+      <div class="bg-img">
         <img
-          src="./assets/logo/ohmyfood.png"
-          alt="logo oh my food"
-          class="logo"
+          src="./assets/images/restaurant-charonne.jpg"
+          class="photo-menu"
+          alt="plat du restaurant"
         />
-      </header>
+      </div>
+      <!-- ensemble 1 : box titre (palette du gout) + menu + bouton commander -->
+      <div class="ensemble1-titres-au-bouton">
+        <h2 class="titre-menu">La note enchantée</h2>
+        <div class="coeur-effet">
+          <i class="fas fa-heart" id="coeur-rempli"></i>
+          <i class="far fa-heart" id="coeur-vide"></i>
+        </div>
 
-      <main>
+        <!--  ensemble 2 : box sous-titres (entrées/plats/desserts) + menus  -->
 
-        <div class="bg-img">
-            <img
-              src="./assets/images/restaurant-charonne.jpg"
-              class="photo-menu"
-              alt="plat du restaurant"
-            />
-          </div> 
-<!-- -------------------------------------- ensemble 1 : box titre (palette du gout) + menu + bouton commander---------------------------------- -->
-        <div class="ensemble1-titres-au-bouton">
- 
-            <h2 class="titre-menu">La note enchantée</h2>
-            <div class="coeur-effet">
-              <i class="fas fa-heart" id="coeur-rempli"></i>
-              <i class="far fa-heart" id="coeur-vide"></i>
-            </div>
+        <div class="ensemble2-titres-et-menus">
+          <h3 class="titre-entrees">Entrées</h3>
 
-<!-- -------------- ensemble 2 : box sous-titres (entrées/plats/desserts) + menus-----------  -->
+          <!-- ensemble 3: box entrées sans sous-titres  -->
 
-    <div class="ensemble2-titres-et-menus">   
-
-    <h3 class="titre-entrees">Entrées</h3>
-  
-    <!-- ---------------- ensemble 3: box entrées sans sous-titres ------------------------- -->
-            
-    <div class="ensemble3-entrees-sans-titres">
-
-        <article class="titre-article1">
+          <div class="ensemble3-entrees-sans-titres">
+            <article class="titre-article1">
               <div class="titres-div1">
                 <h4 class="h4-article1">Ravioles de foie gras</h4>
                 <h5 class="h5-article1-1">
@@ -61,7 +57,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article2">
               <div class="titres-div2">
                 <h4 class="h4-article2">Caviar osciètre</h4>
@@ -72,7 +68,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article3">
               <div class="titres-div3">
                 <h4 class="h4-article3">Homard et espuma de ...</h4>
@@ -83,7 +79,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article4-4">
               <div class="titres-div4">
                 <h4 class="h4-article4">Foie gras de canard cuit entier</h4>
@@ -94,13 +90,11 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-           </div>
+          </div>
 
-           <h3 class="titre-plats">Plats</h3>
-<!-- --------------------------------------------- ensemble 4 : box plats sans titres ----------------------------------------- -->
-            <div class="ensemble4-plats-sans-titres">
-            
-  
+          <h3 class="titre-plats">Plats</h3>
+          <!-- ensemble 4 : box plats sans titres -->
+          <div class="ensemble4-plats-sans-titres">
             <article class="titre-article5">
               <div class="titres-div5">
                 <h4 class="h4-article5">Noix de coquilles Saint-Jacques</h4>
@@ -111,7 +105,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article6">
               <div class="titres-div6">
                 <h4 class="h4-article6">Langoustine poêlée</h4>
@@ -122,7 +116,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article7-7">
               <div class="titres-div7">
                 <h4 class="h4-article7">Mijoté de queue de boeuf</h4>
@@ -133,13 +127,12 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  </div>
-            <h3 class="titre-desserts">Desserts</h3>
+          </div>
+          <h3 class="titre-desserts">Desserts</h3>
 
-  <!-- --------------------- ensemble 5 : box desserts sans titres ----------------------------------- -->
+          <!-- ensemble 5 : box desserts sans titres -->
 
-  <div class="ensemble5-desserts-sans-titres">
-
+          <div class="ensemble5-desserts-sans-titres">
             <article class="titre-article8">
               <div class="titres-div8">
                 <h4 class="h4-article8">Macaron noisette et chocolat</h4>
@@ -150,7 +143,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article9">
               <div class="titres-div9">
                 <h4 class="h4-article9">Baba au rhum revisité</h4>
@@ -161,7 +154,7 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-  
+
             <article class="titre-article10-10">
               <div class="titres-div10">
                 <h4 class="h4-article10">Tarte au citron meringuée</h4>
@@ -172,30 +165,26 @@
                 <div class="box-icone"><i class="far fa-check-circle"></i></div>
               </div>
             </article>
-            </div>
-        </div>  
-        <div class="button1 btn-note-enchantee">
-            <button class="bouton-commander btn-note-enchantee1">Commander</button></div>
           </div>
         </div>
-      </main>
-  
-      <footer>
-        <ul>
-          <li class="titre-ohmyfood">Ohmyfood</li>
-          <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
-          <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
-          <li>Mentions légales</li>
-          <li class="contact">
-            <a href="mailto:ohmyfood@ohmyfood.com" class="contact1">Contact</a>
-          </li>
-        </ul>
-      </footer>
-    </body>
-  </html>
-  
+        <div class="button1 btn-note-enchantee">
+          <button class="bouton-commander btn-note-enchantee1">
+            Commander
+          </button>
+        </div>
+      </div>
+    </main>
 
-
-
+    <footer>
+      <ul>
+        <li class="titre-ohmyfood">Ohmyfood</li>
+        <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
+        <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
+        <li>Mentions légales</li>
+        <li class="contact">
+          <a href="mailto:ohmyfood@ohmyfood.com" class="contact1">Contact</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
