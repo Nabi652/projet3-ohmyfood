@@ -239,7 +239,7 @@ aside a {
 .titre-cite-rouge,
 .titre-accueil-menu4,
 .titre-mericourt {
-  padding-top: 2%;
+  padding-top: 10px;
   margin-left: 4%;
   font-size: x-large;
 }
@@ -1041,7 +1041,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 988px) and (max-width: 1085px) {
+@media only screen and (min-width: 988px) and (max-width: 1125px) {
   .coeur-effet .fas {
     left: 647px;
   }
@@ -1051,32 +1051,13 @@ p {
   }
 }
 
-@media only screen and (min-width: 1086px) and (max-width: 1155px) {
+@media only screen and (min-width: 1126px) and (max-width: 1284px) {
   .coeur-effet .fas {
-    left: 718px;
+    left: 327px;
   }
 
   .coeur-effet .far {
-    left: 690px;
-  }
-}
-@media only screen and (min-width: 1156px) and (max-width: 1244px) {
-  .coeur-effet .fas {
-    left: 768px;
-  }
-
-  .coeur-effet .far {
-    left: 740px;
-  }
-}
-
-@media only screen and (min-width: 1245px) and (max-width: 1283px) {
-  .coeur-effet .fas {
-    left: 818px;
-  }
-
-  .coeur-effet .far {
-    left: 790px;
+    left: 300px;
   }
 }
 
